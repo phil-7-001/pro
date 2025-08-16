@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="body-one">
+    <header>
+      <nav>
+        <h1 class="logo"> MyPortfolio</h1>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+    <section class="hero">
+      <h2>Hi, I am  <span class="me" style="color: red;">P</span><span class="me" style="color: green;">h</span><span style="color: blue;" class="me">i</span><span style="color: crimson;" class="me">l</span></h2>
+      <!-- <p>I am a Web Developer </p> -->
+      <a href="#contact" class="btn">Contact Me</a>
+    </section>
+  
+    <section id="about" class="about">
+      <h2 style="text-align: center;">About Me</h2>
+      <div class="mig">
+        <p>
+          I am a passionate and detail-oriented web developer dedicated to creating clean, responsive, and user-friendly websites. With a solid foundation in HTML, CSS, JavaScript, and modern frameworks, I enjoy transforming ideas into functional, engaging digital experiences. Whether working on dynamic web applications or sleek landing pages, I focus on writing efficient code and delivering projects that meet both client goals and user needs. I am always eager to learn new technologies and tackle challenging projects that push my skills further.
+        </p>
+        <div>
+          <img src="IMG-20240303-WA0027.jpg" width="250px">
+        </div>
+      </div>
+  
+    </section>
+  
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>An Election Web based software.</p>
+          <img src="" width="300px" srcset="">
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>A simple Arithmetic Calculator.</p>
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <p>A BMI Calculator.</p>
+        </div>
+        <div class="project">
+          <h3>Project 4</h3>
+          <p>A GPA Calculator.</p>
+        </div>
+        <!-- Add more projects here -->
+      </div>
+    </section>
+  
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required/>
+        <input type="email" placeholder="Your Email" required/>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <footer>
+      <p>&copy;  Phil || 2025. All rights reserved.</p>
+    </footer>
+  </div>
+  <section class="body-two">
+    <div class="loader">
+      <h1>Welcome to <span class="me" style="color: red;">P</span><span class="me" style="color: green;">h</span><span style="color: blue;" class="me">i</span><span style="color: crimson;" class="me">l</span></h1>
+    </div>
+</body>
+
+</section>
+<script src="jquery-1.10.2.js"></script>
+<script src="script.js"></script>
+</html>
